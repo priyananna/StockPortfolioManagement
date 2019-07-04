@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.captable.ProcessInputTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2019-07-04T23:32:34" hostname="Priyankas-MacBook-Pro.local" time="0.017">
+  <properties/>
+  <testcase name="processInputTest_CashAsNull" classname="com.captable.ProcessInputTest" time="0.002"/>
+  <testcase name="processInputTest_CashAsBlank" classname="com.captable.ProcessInputTest" time="0.002"/>
+  <testcase name="processInputTest_Invalid_Date_InFile" classname="com.captable.ProcessInputTest" time="0.002"/>
+  <testcase name="processInputTest_SharesAsNull" classname="com.captable.ProcessInputTest" time="0.002"/>
+  <testcase name="processInputTest_SharesAsZero" classname="com.captable.ProcessInputTest" time="0.0"/>
+  <testcase name="processInputTest_Invalid_Formatdate" classname="com.captable.ProcessInputTest" time="0.001"/>
+  <testcase name="processInputTest_Success_Path" classname="com.captable.ProcessInputTest" time="0.0"/>
+  <testcase name="processInputTest_SharesAsBlank" classname="com.captable.ProcessInputTest" time="0.001"/>
+  <testcase name="processInputTest_Missing_InputRecord_Column" classname="com.captable.ProcessInputTest" time="0.003"/>
+  <testcase name="processInputTest_Invalid_Date_Input" classname="com.captable.ProcessInputTest" time="0.001"/>
+  <testcase name="processInputTest_Future_Specifiedate" classname="com.captable.ProcessInputTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Jul 04, 2019 4:32:34 PM com.captable.InvestmentCap processInput
+SEVERE: CustomServiceException java.lang.NumberFormatException For input string: "null"
+Jul 04, 2019 4:32:34 PM com.captable.InvestmentCap processInput
+SEVERE: CustomServiceException java.lang.NumberFormatException empty String
+Jul 04, 2019 4:32:34 PM com.captable.InvestmentCap processInput
+SEVERE: Date Format should be YYYY-MM-DDText '2019-31-12' could not be parsed: Invalid value for MonthOfYear (valid values 1 - 12): 31
+Jul 04, 2019 4:32:34 PM com.captable.InvestmentCap processInput
+SEVERE: CustomServiceException java.lang.NumberFormatException For input string: "null"
+Jul 04, 2019 4:32:34 PM com.captable.InvestmentCap processInput
+SEVERE: Date Format should be YYYY-MM-DDText '20190909' could not be parsed at index 0
+Jul 04, 2019 4:32:34 PM com.captable.InvestmentCap processInput
+SEVERE: CustomServiceException java.lang.NumberFormatException For input string: ""
+Jul 04, 2019 4:32:34 PM com.captable.InvestmentCap processInput
+SEVERE: Input record has missing column, record should have INVESTMENT DATE, SHARES PURCHASED, CASH PAID, INVESTOR
+Jul 04, 2019 4:32:34 PM com.captable.InvestmentCap processInput
+SEVERE: CustomServiceException java.lang.ArrayIndexOutOfBoundsException 3
+Jul 04, 2019 4:32:34 PM com.captable.InvestmentCap processInput
+SEVERE: Date Format should be YYYY-MM-DDText '2019-31-31' could not be parsed: Invalid value for MonthOfYear (valid values 1 - 12): 31
+Jul 04, 2019 4:32:34 PM com.captable.InvestmentCap processInput
+INFO: Specified Date cannot be greater than Today's date, So filter is today's date
+]]></system-err>
+</testsuite>

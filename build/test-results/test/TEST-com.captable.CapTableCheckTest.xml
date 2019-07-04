@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.captable.CapTableCheckTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-07-04T23:32:34" hostname="Priyankas-MacBook-Pro.local" time="0.257">
+  <properties/>
+  <testcase name="capTableCheckTest_Empty_InputFile" classname="com.captable.CapTableCheckTest" time="0.218"/>
+  <testcase name="capTableCheckTest_Success_Path" classname="com.captable.CapTableCheckTest" time="0.031"/>
+  <testcase name="capTableCheckTest_Invalid_File_Error" classname="com.captable.CapTableCheckTest" time="0.0"/>
+  <testcase name="capTableCheckTest_notNullCheck" classname="com.captable.CapTableCheckTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Jul 04, 2019 4:32:34 PM com.captable.InvestmentCap capTableCheck
+INFO: Input File is Empty 
+]]></system-err>
+</testsuite>
